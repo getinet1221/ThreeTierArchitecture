@@ -1,0 +1,13 @@
+E:\CBE\BLL\bin\Debug\netstandard2.0\BLL.deps.json
+E:\CBE\BLL\bin\Debug\netstandard2.0\BLL.dll
+E:\CBE\BLL\bin\Debug\netstandard2.0\BLL.pdb
+E:\CBE\BLL\bin\Debug\netstandard2.0\DAL.dll
+E:\CBE\BLL\bin\Debug\netstandard2.0\DAL.pdb
+E:\CBE\BLL\obj\Debug\netstandard2.0\BLL.csproj.AssemblyReference.cache
+E:\CBE\BLL\obj\Debug\netstandard2.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+E:\CBE\BLL\obj\Debug\netstandard2.0\BLL.AssemblyInfoInputs.cache
+E:\CBE\BLL\obj\Debug\netstandard2.0\BLL.AssemblyInfo.cs
+E:\CBE\BLL\obj\Debug\netstandard2.0\BLL.csproj.CoreCompileInputs.cache
+E:\CBE\BLL\obj\Debug\netstandard2.0\BLL.csproj.CopyComplete
+E:\CBE\BLL\obj\Debug\netstandard2.0\BLL.dll
+E:\CBE\BLL\obj\Debug\netstandard2.0\BLL.pdb
