@@ -1,7 +1,7 @@
 # ThreeTierArchitecture
 # Three Tier Architecture Using ASP.net C#
 ## Description
-- This arctitecture divide the app into three **logical** layers. These layers are
+- This arcitecture divides the whole app into three **logical** layers. These layers are
 	- Data Access Layer
 		- DAL (In this project, Data Access Layer is designated by **DAL**)
 	- Business Logic Layer
@@ -10,8 +10,10 @@
 		- Food (In this project, Presentation Layer is designated by **Food**)
 <hr />
 
-As to me it is better to start coding from Data Access Layer
-'''
+As to me and my collegous point of view, it is better to start coding from the one we communicate with the database i.e. Data Access Layer and then go to Business Logic Layer
+
+```C#
+require 'redcarpet'
 using System;
 using System.Data;
 using System.Data.SqlClient;
@@ -38,7 +40,9 @@ namespace DAL
         }
     }
 }
-'''
+
+```
+
 ### Author
 - [Getinet Amare Mekonne](https://www.github.com/getinet1221)
 - [Telegram](https://t.me/getinet2112)
