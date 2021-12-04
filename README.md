@@ -13,7 +13,7 @@
 As to me and my collegous point of view, it is better to start coding from the one we communicate with the database i.e. Data Access Layer and then go to Business Logic Layer
 
 ```C#
-require 'redcarpet'
+
 using System;
 using System.Data;
 using System.Data.SqlClient;
