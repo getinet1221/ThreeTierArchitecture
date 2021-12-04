@@ -48,7 +48,7 @@ The above source code demonestrates Data Access Layer. Core Points that you have
 	- Write two methods to store data and retrive as you see.
 **Here is a Business Logic Layer**
 - This layer performs Validation, Calculation, enables communication with the remaining two layers.
-```
+```C#
 using System;
 using DAL;
 namespace BLL
@@ -73,7 +73,7 @@ namespace BLL
 }
 ```
 **Here is the last layer demonestration**
-```
+```C#
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -105,7 +105,7 @@ namespace Food
 ```
 **Database Table source code**
 **Name of database => FoodOrdering**
-```
+```SQL
 CREATE TABLE Food(
 id int IDENTITY(1,1) PRIMARY KEY not null,
 Name varchar(250) not null,
