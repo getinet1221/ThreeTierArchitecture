@@ -218,10 +218,21 @@
           }
         }
       },
+      "BusinessLayerObjects/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/BusinessLayerObjects.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessLayerObjects.dll": {}
+        }
+      },
       "DAL/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "BusinessLayerObjects": "1.0.0",
           "System.Data.SqlClient": "4.8.3"
         },
         "compile": {
@@ -860,6 +871,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "BusinessLayerObjects/1.0.0": {
+      "type": "project",
+      "path": "../BusinessLayerObjects/BusinessLayerObjects.csproj",
+      "msbuildProject": "../BusinessLayerObjects/BusinessLayerObjects.csproj"
     },
     "DAL/1.0.0": {
       "type": "project",

@@ -97,6 +97,10 @@
       <Project>{dfe0e945-bd97-4e20-b932-bd363f8afba6}</Project>
       <Name>BLL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BusinessLayerObjects\BusinessLayerObjects.csproj">
+      <Project>{4956b02a-764b-40d8-9d9a-bd0ab57c6b70}</Project>
+      <Name>BusinessLayerObjects</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -11,3 +11,5 @@ E:\CBE\BLL\obj\Debug\netstandard2.0\BLL.csproj.CoreCompileInputs.cache
 E:\CBE\BLL\obj\Debug\netstandard2.0\BLL.csproj.CopyComplete
 E:\CBE\BLL\obj\Debug\netstandard2.0\BLL.dll
 E:\CBE\BLL\obj\Debug\netstandard2.0\BLL.pdb
+E:\CBE\BLL\bin\Debug\netstandard2.0\BusinessLayerObjects.dll
+E:\CBE\BLL\bin\Debug\netstandard2.0\BusinessLayerObjects.pdb

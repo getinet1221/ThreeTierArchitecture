@@ -217,6 +217,16 @@
             "rid": "win"
           }
         }
+      },
+      "BusinessLayerObjects/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/BusinessLayerObjects.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessLayerObjects.dll": {}
+        }
       }
     }
   },
@@ -847,10 +857,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "BusinessLayerObjects/1.0.0": {
+      "type": "project",
+      "path": "../BusinessLayerObjects/BusinessLayerObjects.csproj",
+      "msbuildProject": "../BusinessLayerObjects/BusinessLayerObjects.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "BusinessLayerObjects >= 1.0.0",
       "NETStandard.Library >= 2.0.3",
       "System.Data.SqlClient >= 4.8.3"
     ]
@@ -881,7 +897,11 @@
       "frameworks": {
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\CBE\\BusinessLayerObjects\\BusinessLayerObjects.csproj": {
+              "projectPath": "E:\\CBE\\BusinessLayerObjects\\BusinessLayerObjects.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

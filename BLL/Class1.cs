@@ -10,7 +10,7 @@ namespace BLL
     {
         public void InsertFood(string name, string type)
         {
-            DataAccessLayer bl = new DataAccessLayer();
+            DataAccessLayer bl = new DataAccessLayer();            
             bl.InsertFoodItem(name, type);
         }
         public object SelectFood()

@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using BLL;
-
+using BusinessLayerObjects;
 namespace Food
 {
     public partial class AddFood : System.Web.UI.Page
@@ -14,15 +14,13 @@ namespace Food
         {
 
         }
-
         protected void btnAdd_Click(object sender, EventArgs e)
         {
-            // manage your code right here
+            //Manage your code right here
             BusinessLogicLayer bll = new BusinessLogicLayer();
             bll.InsertFood(txtName.Text, txtType.Text);
             GridView1.DataSource = bll.SelectFood();
             GridView1.DataBind();
-
         }
     }
 }

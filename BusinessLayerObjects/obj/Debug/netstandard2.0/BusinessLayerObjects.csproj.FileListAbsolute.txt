@@ -1,0 +1,10 @@
+E:\CBE\BusinessLayerObjects\bin\Debug\netstandard2.0\BusinessLayerObjects.deps.json
+E:\CBE\BusinessLayerObjects\bin\Debug\netstandard2.0\BusinessLayerObjects.dll
+E:\CBE\BusinessLayerObjects\bin\Debug\netstandard2.0\BusinessLayerObjects.pdb
+E:\CBE\BusinessLayerObjects\obj\Debug\netstandard2.0\BusinessLayerObjects.GeneratedMSBuildEditorConfig.editorconfig
+E:\CBE\BusinessLayerObjects\obj\Debug\netstandard2.0\BusinessLayerObjects.AssemblyInfoInputs.cache
+E:\CBE\BusinessLayerObjects\obj\Debug\netstandard2.0\BusinessLayerObjects.AssemblyInfo.cs
+E:\CBE\BusinessLayerObjects\obj\Debug\netstandard2.0\BusinessLayerObjects.csproj.CoreCompileInputs.cache
+E:\CBE\BusinessLayerObjects\obj\Debug\netstandard2.0\BusinessLayerObjects.dll
+E:\CBE\BusinessLayerObjects\obj\Debug\netstandard2.0\BusinessLayerObjects.pdb
+E:\CBE\BusinessLayerObjects\obj\Debug\netstandard2.0\BusinessLayerObjects.csproj.AssemblyReference.cache

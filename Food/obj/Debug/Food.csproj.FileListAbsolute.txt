@@ -63,3 +63,5 @@ E:\CBE\Food\obj\Debug\Food.csproj.CoreCompileInputs.cache
 E:\CBE\Food\obj\Debug\Food.csproj.CopyComplete
 E:\CBE\Food\obj\Debug\Food.dll
 E:\CBE\Food\obj\Debug\Food.pdb
+E:\CBE\Food\bin\BusinessLayerObjects.dll
+E:\CBE\Food\bin\BusinessLayerObjects.pdb

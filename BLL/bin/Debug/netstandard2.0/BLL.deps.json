@@ -142,8 +142,14 @@
           }
         }
       },
+      "BusinessLayerObjects/1.0.0": {
+        "runtime": {
+          "BusinessLayerObjects.dll": {}
+        }
+      },
       "DAL/1.0.0": {
         "dependencies": {
+          "BusinessLayerObjects": "1.0.0",
           "System.Data.SqlClient": "4.8.3"
         },
         "runtime": {
@@ -269,6 +275,11 @@
       "sha512": "sha512-aeu4FlaUTemuT1qOd1MyU4T516QR4Fy+9yDbwWMPHOHy7U8FD6SgTzdZFO7gHcfAPHtECqInbwklVvUK4RHcNg==",
       "path": "system.text.encoding.codepages/4.7.0",
       "hashPath": "system.text.encoding.codepages.4.7.0.nupkg.sha512"
+    },
+    "BusinessLayerObjects/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "DAL/1.0.0": {
       "type": "project",
