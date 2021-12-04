@@ -42,6 +42,78 @@ namespace DAL
 }
 
 ```
+The above source code demonestrates Data Access Layer. Core Points that you have to focus
+- Establishing connection with database on line 11. 
+	- To do it easily, go to your visual studio IDE, click Tools->Connect to Database->Selecr your server name->select database name and finally go to Advanced button to copy the path easily.
+	- Write two methods to store data and retrive as you see.
+**Here is a Business Logic Layer**
+- This layer performs Validation, Calculation, enables communication with the remaining two layers.
+```
+using System;
+using DAL;
+namespace BLL
+{
+    public class Class1
+    {
+
+    }
+    public class BusinessLogicLayer
+    {
+        public void InsertFood(string name, string type)
+        {
+            DataAccessLayer bl = new DataAccessLayer();
+            bl.InsertFoodItem(name, type);
+        }
+        public object SelectFood()
+        {
+            DataAccessLayer bl = new DataAccessLayer();
+            return bl.SelectFoodItem();
+        }
+    }
+}
+```
+**Here is the last layer demonestration**
+```
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using BLL;
+
+namespace Food
+{
+    public partial class AddFood : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void btnAdd_Click(object sender, EventArgs e)
+        {
+            // manage your code right here
+            BusinessLogicLayer bll = new BusinessLogicLayer();
+            bll.InsertFood(txtName.Text, txtType.Text);
+            GridView1.DataSource = bll.SelectFood();
+            GridView1.DataBind();
+
+        }
+    }
+}
+```
+**Database Table source code**
+**Name of database => FoodOrdering**
+```
+CREATE TABLE Food(
+id int IDENTITY(1,1) PRIMARY KEY not null,
+Name varchar(250) not null,
+Type varchar(250) not null
+);
+```
+### Clone it via the following address 
+**git clone https://github.com/getinet1221/ThreeTierArchitecture.git**
 
 ### Author
 - [Getinet Amare Mekonne](https://www.github.com/getinet1221)
